@@ -1,0 +1,91 @@
+* {
+  font-family: "Martel Sans", "sans-serif", "Noto Sans Khojki";
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #8053ff;
+  --Main-Body-Color: #23155b;
+  --Gray-Light-Color: #817d8e;
+  --White-Color: #f4f4f4;
+  --Background-Color: #f1f1ff;
+}
+body {
+  background-color: var(--Background-Color);
+}
+
+.SignUpPage {
+  display: grid;
+  grid-template-columns: 1fr 50%;
+  grid-template-rows: 100%;
+}
+
+.SignUpImgSite {
+  background-color: var(--Main-Body-Color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignUpLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignUpLayoutCard {
+  width: 400px;
+  height: 500px;
+  background-color: var(--White-Color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.JCNow2 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+#Email {
+  border-radius: 3px;
+  padding: 8px 20px;
+  background-color: var(--Main-Body-Color);
+  margin-bottom: 20px;
+}
+
+#Password {
+  border-radius: 3px;
+  padding: 8px 20px;
+  background-color: var(--Main-Body-Color);
+  margin-bottom: 20px;
+}
+
+#SignUp {
+  border-radius: 3px;
+  padding: 8px 87px;
+  background-color: var(--Main-Body-Color);
+  margin-bottom: 20px;
+  color: var(--White-Color);
+  background-color: rgb(8, 149, 237);
+  border-color: var(--White-Color);
+}
+
+#First_Name {
+  border-radius: 3px;
+  padding: 8px 20px;
+  background-color: var(--Main-Body-Color);
+  margin-bottom: 20px;
+}
+
+#Last_Name {
+  border-radius: 3px;
+  padding: 8px 20px;
+  background-color: var(--Main-Body-Color);
+  margin-bottom: 20px;
+}

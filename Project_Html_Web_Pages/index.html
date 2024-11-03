@@ -1,181 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <header>
-      <img src="./landing-page-assets/assets/logo.svg" alt="CodeCLA_Logo" />
-      <br />
-      <span>CodeCLA</span>
-      <br />
-      <nav>
-        <a href="#ForCoders">ForCoders</a>
-        <a href="./ForDevelopers.html">ForDevelopers </a>
-      </nav>
-    </header>
-
+    <link rel="stylesheet" href="index-stylesheet.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
-    <form>
-      <label for="Jn"></label>
-      <button type="submit" formaction="SignUpPage.html">Join now</button>
-    </form>
-    <br />
-    <h1>The place for Competitive Programmers</h1>
-    <span>
-      CodeCLA is where programmers participate in programming contests, solve
-      algorithm and data structure challenges and become a part of an awesome
-      community.</span
-    >
-    <br />
-    <br />
-    <form>
-      <label for="Jn"></label>
-      <button type="submit" formaction="SignUpPage.html">Become a coder</button>
+    <!--navbar begin-->
+    <header class="logo">
+      <span class="CLAtxt">
+        <img src="./landing-page-assets/assets/logo.svg" alt="CodeCLA_Logo" />
+        CodeCLA</span
+      >
 
-      <label for="Jn"></label>
-      <button type="submit" formaction="SignUpPage.html">
-        Become a manager
-      </button>
-    </form>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="#ForCoders">ForCoders</a>
+          </li>
+          <li><a href="./ForDevelopers.html">ForDevelopers </a></li>
+          <li>
+            <label for="Jn"></label>
+            <button class="JnButton" type="submit" formaction="SignUpPage.html">
+              Join now
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <!--navbar end-->
+    </header>
+    <!--Hero Section begin-->
+    <section class="SectionProg">
+      <h1 class="h1-0">The place for Competitive Programmers</h1>
 
+      <p>
+        CodeCLA is where programmers participate in programming contests, solve
+        algorithm and data structure challenges and become a part of an awesome
+        community.
+      </p>
+      <div>
+        <label for="Jn"></label>
+        <button class="ButtonHero1" type="submit" formaction="SignUpPage.html">
+          Become a coder
+        </button>
+
+        <label for="Jn"></label>
+        <button class="ButtonHero2" type="submit" formaction="SignUpPage.html">
+          Become a manager
+        </button>
+      </div>
+    </section>
+    <!--Hero Section end-->
+
+    <!--Section Practice to lvl-up begin-->
+    <section class="SectionPract">
+      <h1 class="purpletxt">Practice to level-up</h1>
+      <ul class="PractList" style="list-style: none">
+        <li>
+          <button class="PractButton1">
+            <div>1K</div>
+            Problems for Practice
+          </button>
+        </li>
+        <li>
+          <button class="PractButton2">
+            <div>100+</div>
+            Coders
+          </button>
+        </li>
+        <br />
+        <li>
+          <button class="PractButton3">
+            <div>10</div>
+            Programming languages
+          </button>
+        </li>
+        <li>
+          <button class="PractButton4">
+            <div>130K</div>
+            Submissions
+          </button>
+        </li>
+      </ul>
+    </section>
+    <!--Section Practice to lvl-up end-->
+
+    <!--Section "What you will gain" begin-->
+    <h1 class="purpletxt">For coders</h1>
+    <h1 class="Gainh1">What you will <span>gain</span></h1>
     <br />
-    <h1>Practice to level-up</h1>
-    <br />
-    <div>1K</div>
-    <div>Problems for Practice</div>
-    <div>100+</div>
-    <div>Coders</div>
-    <div>10</div>
-    <div>Programming languages</div>
-    <div>130K</div>
-    <div>Submissions</div>
-    <br />
-    <h1 id="ForCoders">For coders</h1>
-    <h1>What you will gain</h1>
-    <br />
-    <span
-      >You are a coder who wants to level up his skills in coding and problem
+    <p class="Gainp2">
+      You are a coder who wants to level up his skills in coding and problem
       solving?. Here what we provide
-    </span>
+    </p>
+    <section class="SectionGain">
+      <div class="SectionGainBox1">
+        <div>Rich practice set of problems</div>
+
+        <img class="imgok" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p class="Gainp">
+          Access a rich library of practice problems, algorithms, and data
+          structures to enhance your skills
+        </p>
+      </div>
+      <div class="SectionGainBox2">
+        <div>Universal contests</div>
+        <img class="imgok" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p class="Gainp">
+          Compete in regularly scheduled contests against top talent from around
+          the globe
+        </p>
+      </div>
+      <div class="SectionGainBox3">
+        <div>Contest feedback</div>
+
+        <img class="imgok" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p class="Gainp">
+          Receive personalized insights and feedback to improve your
+          problem-solving abilities
+        </p>
+      </div>
+      <div class="SectionGainBox4">
+        <div>Sharing is caring</div>
+
+        <img class="imgok" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p class="Gainp">
+          Connect with like-minded individuals, form teams, and tackle
+          challenges together
+        </p>
+      </div>
+      <div class="SectionGainBox5">
+        <img class="imgok" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p class="Gainp">
+          Track your progress and climb the ranks on our leaderboard
+        </p>
+      </div>
+      <div class="SectionGainBox6">
+        <img class="imgok" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p class="Gainp">Detailed solutions for problems</p>
+      </div>
+    </section>
+
+    <label for="Jn"></label>
+    <button class="JoinCc" type="submit" formaction="SignUpPage.html">
+      Join coders community
+    </button>
+    <!--Section "What you will gain" end-->
+
+    <!--Section "Acces high-professional platform 
+for coding challegenes design" begin-->
+    <h1 class="purpletxt">For managers</h1>
+    <h1 class="Gainh1">Access high-professional platform for coding challenges design</h1>
+
+    <section class="SectionAccHigh">
+      <div class="SectionGainBox1">
+        <img class="imgok" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p>Craft tailored coding challenges suited to your specific needs and
+        objectives</p>
+      </div>
+      
+      <div class="SectionGainBox1">
+        <img class="imgok" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+      <p>Design challenges that align perfectly with your rectruitment criteria</p>
+      </div>
+
+      
+      <div class="SectionGainBox1">
+        <img class="imgok" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p>Chose from a wide range of problem types including algorithmic, data
+        structures, puzzles, and more</p>
+      </div>
+
+      <div class="SectionGainBox1">
+      <img class="imgok" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+      <p>Ergonomic tools for challenges design</p>
+    </div>
+      <div class="SectionGainBox1">
+        <img class="imgok" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p>Collaborate with colleagues or peers in creating and refining coding
+        challenges</p>
+      </div>
+
+    
+      <div class="SectionGainBox1">
+        <img class="imgok" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p>Access dedicated support from our team of experts</p>
+      </div>
+    </section>
     <br />
-    <div>
-      <img src="./landing-page-assets/assets/ok.svg" alt="Ok" />
-    </div>
-    <div>Rich practice set of problems</div>
-    <div>
-      Access a rich library of practice problems, algorithms, and data
-      structures to enhance your skills
-    </div>
-    <img src="./landing-page-assets/assets/ok.svg" alt="Ok" />
-    <div>Universal contests</div>
-    <div>
-      Compete in regularly scheduled contests against top talent from around the
-      glovbe
-    </div>
-    <img src="./landing-page-assets/assets/ok.svg" alt="Ok" />
-    <div>Contest feedback</div>
-    <div>
-      Receive personalized insights and feedback to improve your problem-solving
-      abilities
-    </div>
-    <img src="./landing-page-assets/assets/ok.svg" alt="Ok" />
-    <div>Sharing is caring</div>
-    <div>
-      Connect with like-minded individuals, form teams, and tackle challenges
-      together
-    </div>
-    <img src="./landing-page-assets/assets/ok.svg" alt="Ok" />
-    <div>Track your progress and climb the ranks on our leaderboard</div>
-    <img src="./landing-page-assets/assets/ok.svg" alt="Ok" />
-    <div>Detailed solutions for problems</div>
+    <br>
     <form>
       <label for="Jn"></label>
-      <button type="submit" formaction="SignUpPage.html">
-        Join coders community
-      </button>
-    </form>
-    <br />
-    <h1>For managers</h1>
-    <h1>Access high-professional platform for coding challenges design</h1>
-    <br />
-    <img src="./landing-page-assets/assets/ok.svg" alt="Ok" />
-    <div>
-      Craft tailored coding challenges suited to your specific needs and
-      objectives
-    </div>
-    <img src="./landing-page-assets/assets/ok.svg" alt="Ok" />
-    <div>
-      Design challenges that align perfectly with your rectruitment criteria
-    </div>
-
-    <img src="./landing-page-assets/assets/ok.svg" alt="Ok" />
-    <div>
-      Chose from a wide range of problem types including algorithmic, data
-      structures, puzzles, and more
-    </div>
-
-    <img src="./landing-page-assets/assets/ok.svg" alt="Ok" />
-
-    <div>Ergonomic tools for challenges design</div>
-    <img src="./landing-page-assets/assets/ok.svg" alt="Ok" />
-    <div>
-      Collaborate with colleagues or peers in creating and refining coding
-      challenges
-    </div>
-
-    <img src="./landing-page-assets/assets/ok.svg" alt="Ok" />
-    <div>Access dedicated support from our team of experts</div>
-    <form>
-      <label for="Jn"></label>
-      <button type="submit" formaction="SignUpPage.html">
+      <button class="JoinCc type="submit" formaction="SignUpPage.html">
         Join managers community
       </button>
     </form>
-    <img src="./landing-page-assets/assets/logo.svg" alt="CodeCLA_Logo" />
+    <!--Section "Acces high-professional platform 
+for coding challegenes design" end-->
+
+    <!--Section "brought to you by CLA" begin-->
     <br />
-    <h1>Brought to you by CLA</h1>
+    <img class="TeamImg" src="./landing-page-assets/assets/team.svg" alt="Team" />
+    <Section class="BroughtByCLA">
+      <div class="BroughtByCLACard">
+    <img class="CodeCLALogo" src="./landing-page-assets/assets/logo.svg" alt="CodeCLA_Logo" />
+    <br />
+    <h1 class="h1-1">Brought to you by CLA</h1>
     <p>
       Join the Ultimate Hub for Competitive Programmers and reach growth and
       excellence in competitive programming.
-    </p>
-    <p>
-      Coding challenges is made simple by our platform.Access a dashboard of
+      </p>
+      <p>Coding challenges is made simple by our platform.Access a dashboard of
       tools for high-quality challenge design.
     </p>
+  </div>
+  </Section>
+    <!--Section "brought to you by CLA" end-->
     <br />
-    <h1>Testimonials</h1>
-    <div>
+    <br>
+    <br> <br> <br> <br> <br> <br> <br> <br><br><br>
+
+    <!--Section Testimonials start-->
+    <Section class="Testimonials">
+      <div class="TestimonialsCard">
+    <h1 class="purpletxth1">Testimonials</h1>
+    <Section class="Testimonials">
+    <p class="testimtxt">
       This guy is an amazing frontend developer that delivered the task excactly
       how we need it, do your self a favor and hire him, you will not be
       disappointed by the work delivered. He will go the extra mile to make sure
       that you are happy with your project. I will surely work again with him!
-    </div>
-    <div>
+    </p>
       <img
+      class="Juneimg"
         src="./landing-page-assets/assets/June.png"
         alt="June Cha"
         width="150px"
         height="150px"
       />
-    </div>
     <br />
     <b>June Cha</b>
     <br />
     Software Engineer
-    <br />
-    <h1>Contact Us</h1>
+  </div>
+  </Section>
+    <!--Section Testimonials end-->
+
+    <!--Section Contact Us begin-->
+    <Section class="SectionContactUs">
+    <h1 class="h1ContactUs">Contact Us</h1>
     <form>
-      <label for="Name">Name</label>
+      <label class="nametxt" for="Name">Name</label>
       <div></div>
       <input type="text" id="Name" placeholder="Your Name" name="Name" />
       <br />
-      <label for="Email">Email</label>
+      <label class="emailtxt" for="Email">Email</label>
       <div></div>
       <input type="email" id="Email" placeholder="Your Email" name="Email" />
       <br />
-      <label for="Message">Message</label>
+      <label class="messagetxt" for="Message">Message</label>
       <div></div>
       <textarea
         placeholder="Your Message"
@@ -191,5 +275,6 @@
     <footer>
       &copy; 2024 Your Competitive Programming Platform. All rights reserved.
     </footer>
+  </Section>
   </body>
 </html>

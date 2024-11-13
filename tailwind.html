@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index-stylesheet.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens:{
+              sm: "320px",
+              lg: "1024px",
+            },
+            extend: {
+              colors: {
+                primary:"#8053ff",
+                mainBody:"#23155b",
+                grayLight:"#817d8e",
+                white: "#f4f4f4",
+                background: "#f1f1ff",
+              },
+            },
+          },
+        };
+      </script>
+  </head>
+  <body>
+    <!--navbar begin-->
+    <header class="grid grid-cols-1 text-center text-sm lg:flex lg:justify-between">
+        <div class="flex m-auto w-9 items-center lg:ml-10">
+        <img class="" src="./landing-page-assets/assets/logo.svg" alt="CodeCLA_Logo" />
+        <span class=>CodeCLA</span>
+    </div>
+
+      <nav class="flex items-center justify-center gap-5 ml-7 mt-3 text-sm">
+        
+            <a href="#ForCoders" class="mr-4">ForCoders</a>
+          <a href="./ForDevelopers.html">ForDevelopers </a>
+          <label for="Jn"></label>
+            <button class="bg-primary rounded text-white px-4 py-2" type="submit" formaction="SignUpPage.html">
+              Join now
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <!--navbar end-->
+    </header>
+    <!--Hero Section begin-->
+    <section class="grid grid-cols-1 gap-6 mt-5 text-sm lg:text-lg">
+      <h1 class="flex items-center justify-center text-center text-3xl font-bold">The place for Competitive Programmers</h1>
+
+      <p class="flex items-center justify-center text-center lg:mr-4 lg:ml-4">
+        CodeCLA is where programmers participate in programming contests, solve
+        algorithm and data structure challenges and become a part of an awesome
+        community.
+      </p>
+    
+      <div class="flex items-center justify-center text-center gap-3">
+        <label for="Jn"></label>
+        <button class="bg-primary text-white rounded px-5 py-3" type="submit" formaction="SignUpPage.html">
+          Become a coder
+        </button>
+
+        <label for="Jn"></label>
+        <button class="border-2 border-slate-700 rounded px-5 py-3 text-primary" type="submit" formaction="SignUpPage.html">
+          Become a manager
+        </button>
+      </div>
+    </section>
+    <!--Hero Section end-->
+
+    <!--Section Practice to lvl-up begin-->
+    <h1 class="text-1xl text-center mt-3 font-bold text-primary">Practice to level-up</h1>
+    <section class=" lg:text-lg sm:container sm:mx-auto text-sm grid sm:grid-cols-[45%_45%] lg:grid-cols-[25%_25%] lg:translate-x-60 grid-rows-2 gap-3 ml-4 mr-4 sm:translate-x-2">
+          <button class="border bg-white shadow-md">
+            <div>1K</div>
+            <p>Problems for Practice</p>
+          </button>
+          <button class="border bg-white shadow-md">
+            <div>100+</div>
+            <p>Coders</p>
+          </button>
+          <button class="border bg-white shadow-md">
+            <div>10</div>
+            <p>Programming languages</p>
+          </button>
+  
+          <button class="border bg-white shadow-md">
+            <div>130K</div>
+            <p>Submissions</p>
+          </button>
+    </section>
+  
+    <!--Section Practice to lvl-up end-->
+
+    <!--Section "What you will gain" begin-->
+    <h1 class="text-primary text-md mt-10 sm:ml-2 lg:ml-10 lg:text-lg">For coders</h1>
+    <h1 class="text-6xl font-bold sm:ml-2 lg:ml-10">What you will <span class="text-primary">gain</span></h1>
+    <br />
+    <p class="text-sm sm:mb-5 sm:ml-2 lg:ml-10">
+      You are a coder who wants to level up his skills in coding and problem
+      solving?. Here what we provide
+    </p>
+    <section class="text-sm sm:container grid sm:grid-cols-1 gap-3 lg:ml-10 lg:grid-cols-2">
+      <div class="shadow-md border-2 sm:ml-2 sm:mr-2">
+        <div class="font-bold sm:ml-2">Rich practice set of problems</div>
+
+        <img class="float-left sm:translate-y-3 sm:mr-2 lg:translate-y-1" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p class="flex">
+          Access a rich library of practice problems, algorithms, and data
+          structures to enhance your skills
+        </p>
+      </div>
+      <div class="shadow-md border-2 sm:ml-2 sm:mr-2">
+        <div class="font-bold ml-2">Universal contests</div>
+        <img class="float-left sm:translate-y-1 sm:mr-2" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p class="flex">
+          Compete in regularly scheduled contests against top talent from around
+          the globe
+        </p>
+      </div>
+      <div class="shadow-md border-2 sm:ml-2 sm:mr-2">
+        <div class="font-bold ml-2">Contest feedback</div>
+
+        <img class="float-left sm:translate-y-1 sm:mr-2" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p class="flex">
+          Receive personalized insights and feedback to improve your
+          problem-solving abilities
+        </p>
+      </div>
+      <div class="shadow-md border-2 sm:ml-2 sm:mr-2">
+        <div class="font-bold ml-2">Sharing is caring</div>
+
+        <img class="float-left sm:translate-y-1 sm:mr-2" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p class="flex">
+          Connect with like-minded individuals, form teams, and tackle
+          challenges together
+        </p>
+      </div>
+      <div class="shadow-md border-2 sm:ml-2 sm:mr-2">
+        <img class="float-left sm:translate-y-1 sm:mr-2 lg:translate-y-0" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p class="flex">
+          Track your progress and climb the ranks on our leaderboard
+        </p>
+      </div>
+      <div class="shadow-md border-2 sm:ml-2 sm:mr-2">
+        <img class="float-left sm:translate-y-[-2px] sm:mr-2" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p class="flex">Detailed solutions for problems</p>
+      </div>
+    </section>
+
+    <label for="Jn"></label>
+    <button class="bg-primary text-white rounded px-5 py-3 sm:ml-2 lg:ml-12" type="submit" formaction="SignUpPage.html">
+      Join coders community
+    </button>
+    <!--Section "What you will gain" end-->
+
+    <!--Section "Acces high-professional platform 
+for coding challegenes design" begin-->
+    <h1 class="text-primary text-md mt-10 sm:ml-2 lg:ml-10">For managers</h1>
+    <h1 class="text-6xl font-bold sm:ml-2 sm:mb-2 lg:ml-10">Access <span class="text-primary">high-professional</span> platform for coding challenges design</h1>
+
+    <section class="text-sm sm:container grid sm:grid-cols-1 gap-3 lg:grid-cols-2 lg:ml-10">
+      <div class="shadow-md border-2 sm:ml-2 sm:mr-2">
+        <img class="float-left sm:translate-y-2 sm:mr-2 lg:translate-y-0" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p class="flex">Craft tailored coding challenges suited to your specific needs and
+        objectives</p>
+      </div>
+      
+      <div class="shadow-md border-2 sm:ml-2 sm:mr-2">
+        <img class="float-left sm:translate-y-2 sm:mr-2 lg:translate-y-0" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+      <p class="flex">Design challenges that align perfectly with your rectruitment criteria</p>
+      </div>
+
+      
+      <div class="shadow-md border-2 sm:ml-2 sm:mr-2">
+        <img class="float-left sm:translate-y-3 sm:mr-2 lg:translate-y-1" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p class="flex">Chose from a wide range of problem types including algorithmic, data
+        structures, puzzles, and more</p>
+      </div>
+
+      <div class="shadow-md border-2 sm:ml-2 sm:mr-2">
+      <img class="float-left sm:mr-2 lg:translate-y-1" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+      <p class="flex">Ergonomic tools for challenges design</p>
+    </div>
+      <div class="shadow-md border-2 sm:ml-2 sm:mr-2">
+        <img class="float-left sm:translate-y-1 sm:mr-2 lg:translate-y-0" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p class="flex">Collaborate with colleagues or peers in creating and refining coding
+        challenges</p>
+      </div>
+
+    
+      <div class="shadow-md border-2 sm:ml-2 sm:mr-2">
+        <img class="float-left sm:translate-y-1 sm:mr-2 lg:translate-y-0" src="./landing-page-assets/assets/ok.svg" alt="Ok" />
+        <p class="flex">Access dedicated support from our team of experts</p>
+      </div>
+    </section>
+    <br />
+    <br>
+    <form>
+      <label for="Jn"></label>
+      <button class="bg-primary text-white rounded px-5 py-3 sm:ml-2 lg:ml-12" type="submit" formaction="SignUpPage.html">
+        Join managers community
+      </button>
+    </form>
+    <!--Section "Acces high-professional platform 
+for coding challegenes design" end-->
+
+    <!--Section "brought to you by CLA" begin-->
+    <br />
+    <div class="sm:flex sm:flex-col lg:grid lg:grid-cols-[40%_60%] lg:text-center">
+    <img class="sm:rounded-3xl sm:relative sm:items-center sm:text-center sm:justify-center sm:object-center sm:w-[50%] 
+    sm:translate-x-[45%] lg:translate-x-0 lg:rounded-s-none lg:rounded-e-[200px] lg:w-[100%]" 
+    src="./landing-page-assets/assets/team.svg" alt="Team" />
+    <img class="sm:translate-x-[220%] sm:absolute sm:translate-y-[380%] lg:left-[57%] lg:bottom-[5%]" src="./landing-page-assets/assets/logo.svg" alt="CodeCLA_Logo" />
+  
+    <Section class="sm:conainer">
+    <h1 class="text-xl sm:font-bold sm:mr-6 sm:ml-8 sm:mt-20 sm:mb-3">Brought to you by CLA</h1>
+    <p class="sm:ml-8 sm:mr-6 sm:mt-10">
+      Join the Ultimate Hub for Competitive Programmers and reach growth and
+      excellence in competitive programming.
+      Coding challenges is made simple by our platform. Access a dashboard of
+      tools for high-quality challenge design.
+    </p>
+</div>
+  </Section>
+    <!--Section "brought to you by CLA" end-->
+    <br />
+    <br>
+    <br> <br> <br> <br> <br> <br> <br> <br><br><br>
+
+    <!--Section Testimonials start-->
+    <div class="flex bg-white w-[80vw] max-w-[41em] min-w-[25em] rounded 
+    translate-x-[-50%] translate-y-[-50%] left[50%] shadow-md">
+      <div class="max-h-[400px] w-[85%] h-[100%] relative m-auto py-[1.8em] px[1.2em]" id="testimonial-container"></div>
+      <button class="bg-white text-blue-700 absolute m-auto top-0 bottom-0 border-none 
+      shadow-md cursor-pointer border-[50%] text-sm h-[2.2em] w-[2.2em] left[-1.1em]" id="prev">&lt;</button>
+      <button class="bg-white text-blue-700 absolute m-auto top-0 bottom-0 border-none 
+      shadow-md cursor-pointer border-[50%] text-sm h-[2.2em] w-[2.2em] right[-1.1em]" id="next">&gt;</button>
+    </div>
+    <!--Section Testimonials end-->
+
+    <!--Section Contact Us begin-->
+    
+    <Section class="container w-full bg-mainBody rounded-tl-[25%]">
+      <div id="error"></div>
+    <h1 class="text-xl translate-x-8 translate-y-2 text-white">Contact Us</h1>
+    <form id="form">  
+      <label class="text-white ml-7" for="Name">Name</label>
+      <div></div>
+      <input type="text" id="Name" placeholder="Your Name" name="Name" />
+      <br />
+      <label class="text-white ml-7" for="Email">Email</label>
+      <div></div>
+      <input type="email" id="Email" placeholder="Your Email" name="Email" />
+      <br />
+      <label class="text-white ml-7" for="Message">Message</label>
+      <div></div>
+      <textarea
+      class="px-4 py-5"
+        id="Message"
+        name="Message"
+      ></textarea>
+      <br />
+      <label for="Sumbit"></label>
+      <div></div>
+      <input type="submit" value="Submit" id="Submit" name="Submit"></input>
+    </form>
+    <br />
+    <footer class="text-white flex text-center">
+      <p>&copy;<script>document.write(new Date().getFullYear())</script>
+      Your Competitive Programming Platform. All rights reserved.</p>
+    </footer>
+  </Section>
+  <script src="javascript.js"></script>
+  </body>
+</html>
